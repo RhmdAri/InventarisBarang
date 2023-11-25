@@ -1,0 +1,21 @@
+1. Bulan   : Januari
+2. Nama    : CPU
+3. Kondisi : Baik
+4. Harga   : 850000.0
+5. Stok    : 21
+6. Ket     : Tersedia
+
+1. Bulan   : Februari
+2. Nama    : Motherboard
+3. Kondisi : Baik
+4. Harga   : 500000.0
+5. Stok    : 0
+6. Ket     : Kosong
+
+1. Bulan   : Maret
+2. Nama    : Processor
+3. Kondisi : Kurang
+4. Harga   : 800000.0
+5. Stok    : 0
+6. Ket     : Kosong
+
