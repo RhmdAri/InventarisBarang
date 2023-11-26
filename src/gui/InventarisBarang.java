@@ -316,10 +316,10 @@ public class InventarisBarang extends javax.swing.JFrame {
     private void btnHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusActionPerformed
         // TODO add your handling code here:
        DefaultTableModel  dtmbrg = (DefaultTableModel) tbData.getModel();
+       int row = tbData.getSelectedRow();
         int dialogButton = JOptionPane.YES_NO_OPTION;
         int dialogResult = JOptionPane.showConfirmDialog(this, "Yakin untuk Hapus Data Ini", "Hapus", dialogButton);
         if (dialogResult == 0) {
-            dtmbrg.removeRow(row);
             baranglist.remove(row);
             dtmbrg.setRowCount(0);
             for (int i = 0; i < baranglist.size(); i++) {
